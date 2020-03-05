@@ -13,5 +13,6 @@ Desenvolver uma **interface** semelhante com a do **Facebook** utilizando React.
 Tomei a liberdade de mudar um pouco a aparência deixando com um "Dark theme".
 
 ![image](https://user-images.githubusercontent.com/55156476/76033152-52bb0c80-5f1a-11ea-8543-adb947d35598.png)
+![image](https://user-images.githubusercontent.com/55156476/76033212-77af7f80-5f1a-11ea-8698-d2a345a3fcdc.png)
 
 
