@@ -11,7 +11,7 @@ Criar uma aplicação do zero utilizando **Webpack, Babel, Webpack Dev Server e 
 
 Desenvolver uma **interface** semelhante com a do **Facebook** utilizando React.
 
-Tomei a liberdade de mudar um pouco a aparência deixando com um "Dark theme".
+Tomei a liberdade de mudar um pouco a aparência deixando com um "Dark theme" e adicionar uma opção para adicionar novos posts.
 
 ### Tela da aplicação
 
