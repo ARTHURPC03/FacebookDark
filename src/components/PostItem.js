@@ -1,5 +1,7 @@
 import React from 'react';
 
+import profile from '../assets/Perfil.jpg'
+
 function PostHeader({ author, date }) {
   return (
     <div className="post-header">
@@ -12,7 +14,7 @@ function PostHeader({ author, date }) {
   );
 }
 
-function PostComments({ comments }) {
+function PostComments({ comments}) {
   return (
     <div className="post-comments">
       <div className="divider" />
@@ -25,6 +27,17 @@ function PostComments({ comments }) {
           </p>
         </div>
       ))}
+      <br/>
+      <div id="writeComment">
+        <img className="avatar" src={profile} />
+        <input 
+        type="text" 
+        placeholder="Escreva um comentário" 
+        className="newComments"
+        // onChange={this.handleInputChange} 
+        // value={this.state.newComment} 
+        />
+      </div>
     </div>
   );
 }

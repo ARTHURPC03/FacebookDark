@@ -168,9 +168,9 @@ nav > div img {
   text-align: center;
 }
 
-input {
+#newPost {
   width: 100%;
-  height: 70px;
+  height: 60px;
   font-size: 25px;
   border-radius:4px;
   -moz-border-radius:4px;
@@ -180,4 +180,28 @@ input {
   -webkit-box-shadow: 1px 1px 2px #333333;
   background: #cccccc; 
   border:1px solid #000000;
+}
+
+.newComments {
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  box-shadow: 1px 1px 2px #333333;    
+  -moz-box-shadow: 1px 1px 2px #333333;
+  -webkit-box-shadow: 1px 1px 2px #333333;
+  background: #cccccc; 
+  border:1px solid #000000;
+}
+
+#writeComment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#writeComment input {
+  margin-left: 10px;
 }
