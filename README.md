@@ -16,5 +16,6 @@ Tomei a liberdade de mudar um pouco a aparência deixando com um "Dark theme" e 
 ### Tela da aplicação
 
 ![image](https://user-images.githubusercontent.com/55156476/76129754-ff62c000-5fe6-11ea-8d95-e4de908b94c6.png)
+![image](https://user-images.githubusercontent.com/55156476/76129819-481a7900-5fe7-11ea-9157-9b30bcab1fa8.png)
 
 
