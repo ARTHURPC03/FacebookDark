@@ -54,10 +54,11 @@ nav > div img {
   margin-left: 8px;
 }
 
-.postlist {
+.post_list {
   width: 700px;
   margin: 0 auto 20px;
 }
+
 
 .post {
   margin-top: 20px;
@@ -129,4 +130,54 @@ nav > div img {
 .comment span {
   font-weight: bold;
   margin-right: 6px;
+}
+
+.bt {
+  border:1px solid #25692A;
+  border-radius:4px;
+  display:inline-block;
+  cursor:pointer;
+  font-family:Verdana;
+  font-weight:bold;
+  font-size:13px;
+  padding:6px 10px;
+  text-decoration:none;
+  }
+
+.bt-az {
+  border-color:#46a7f5;
+  background:linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+  box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+  color:#fff;
+  text-shadow:0px 1px 0px #528009;  
+  }
+
+.bt-az:hover {
+  background:linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+  }
+
+.bt:active {
+  position:relative;
+  top:2px;}
+
+.bPostar {
+  width: 100%;
+  }
+
+#createPost h3{
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 70px;
+  font-size: 25px;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  box-shadow: 1px 1px 2px #333333;    
+  -moz-box-shadow: 1px 1px 2px #333333;
+  -webkit-box-shadow: 1px 1px 2px #333333;
+  background: #cccccc; 
+  border:1px solid #000000;
 }

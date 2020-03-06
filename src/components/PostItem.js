@@ -29,7 +29,7 @@ function PostComments({ comments }) {
   );
 }
 
-function PostItem({ author, date, content, comments }) {
+function PostItem({ author, date, content, comments}) {
   return (
     <div className="post">
       <PostHeader author={author} date={date} />
