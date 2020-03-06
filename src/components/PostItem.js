@@ -14,7 +14,26 @@ function PostHeader({ author, date }) {
   );
 }
 
-function PostComments({ comments}) {
+function NewComments({ newComment, handleInputChangeComment }) {  
+  return (
+    <div id="writeComment">
+      <img className="avatar" src={profile} />
+        <form id="commentNew">
+        <input 
+        type="text" 
+        placeholder="Escreva um comentário" 
+        className="newComments"
+        value={newComment}
+        onChange={handleInputChangeComment}
+        // onChange={this.handleInputChange} 
+        // value={this.state.newComment} 
+        />
+        </form>
+      </div>
+  )
+}
+
+function PostComments({ comments }) {
   return (
     <div className="post-comments">
       <div className="divider" />
@@ -28,16 +47,6 @@ function PostComments({ comments}) {
         </div>
       ))}
       <br/>
-      <div id="writeComment">
-        <img className="avatar" src={profile} />
-        <input 
-        type="text" 
-        placeholder="Escreva um comentário" 
-        className="newComments"
-        // onChange={this.handleInputChange} 
-        // value={this.state.newComment} 
-        />
-      </div>
     </div>
   );
 }
@@ -48,6 +57,7 @@ function PostItem({ author, date, content, comments}) {
       <PostHeader author={author} date={date} />
       <p className="post-content">{content}</p>
       <PostComments comments={comments} />
+      <NewComments /> 
     </div>
   );
 }

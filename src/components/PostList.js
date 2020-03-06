@@ -4,7 +4,6 @@ import PostItem from './PostItem';
 
 class PostList extends Component {
   state = {
-    newComment: 'oi',
     newPost: '',
     posts: [
       {
@@ -115,10 +114,9 @@ class PostList extends Component {
       newPost: '' 
     })
   }
-
   render() {
     const { posts } = this.state;
-
+    
     return (
       <>
         <div id="createPost" className="post_list post">
@@ -136,8 +134,10 @@ class PostList extends Component {
         </div>
         <div className="post_list">
           {posts.map(post => (
-            <PostItem key={post.id} {...post} />
-          ))}
+            <PostItem 
+            key={post.id} {...post}   
+            />
+            ))}
         </div>
       </>
     );
