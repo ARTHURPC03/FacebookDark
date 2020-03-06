@@ -4,6 +4,7 @@
 <h3 align="center">
   Desafio 4: Introdução ao React
 </h3>
+
 ## :rocket: Sobre o desafio
 
 Criar uma aplicação do zero utilizando **Webpack, Babel, Webpack Dev Server e ReactJS**.
